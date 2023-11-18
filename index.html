@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadbury Mini Eggs</title>
+    <meta name="description" content="Assignment 3 - How Sweet Is This!">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="./js/custom-js.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="./Images/Cadbury-Logo.png" alt="Cadbury Logo"></a>
+        </div>
+        <nav>
+            <menu>
+                <li><a href="index.html">Our Products</a></li>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <section class="masthead">
+            <div class="video-container">
+                <video id="background-video" autoplay loop muted>
+                    <source src="Video/main_video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="heading">
+                <h1>Crafting Perfection from Bean to Bar</h1>
+                <p>Real Ingredients, Exceptional Chocolate</p>
+            </div>
+        </section>
+        <section class="product">
+            <div class="content-info">
+                <h2>INTODUCING OUR ALL NEW DARK CHOCOLATE!</h2>
+            </div>
+            <div class="chocolate">
+                <div class="chocolate-content">
+                    <h2>CADBURY BOURNVILLE ORANGE DARK CHOCOLATE BAR, 180G</h2>
+                    <span>Vegetarian Chocolate</span>
+                    <p>Discover the deliciously dark, rich flavour of Cadbury Bournville dark chocolate, combined with
+                        zesty orange flavoured pieces, for a truly aromatic taste sensation. Made with sustainably
+                        sourced cocoa. Vegetarian friendly.</p>
+                </div>
+                <img src="./Images/adc20cdd-d9eb-47ae-bffb-4f4ea6a5c98a.png" alt="Chocolate Bar"
+                    class="chocolate-bar-image">
+            </div>
+        </section>
+        <section class="chocolate-info">
+            <div class="chocolate-info-div">
+                <div class="production-video-div">
+                    <video id="production-video" autoplay loop muted>
+                        <source src="./Video/production_video.mp4" type="video/mp4">
+                    </video>
+                    <div class="overlay-text">
+                        <h2>Discover the magic behind every bite</h2>
+                    </div>
+                </div>
+                <div class="collapsible-text">
+                    <input type="checkbox" id="collapse1" class="toggle">
+                    <label for="collapse1" class="collapsible">Ingredients</label>
+                    <div class="content" id="content1">
+                        <p>Sugar, cocoa butter, cocoa mass, palm oil, emulsifiers (SOYA lecithins, E476), skimmed
+                            MILK
+                            powder.
+
+                            May contain nuts.</p>
+                    </div>
+                    <input type="checkbox" id="collapse2" class="toggle">
+                    <label for="collapse2" class="collapsible">Nutritional Information</label>
+                    <div class="content" id="content2">
+                        <h2>TYPICAL VALUES PER 100g</h2>
+                        <ul>
+                            <li class="Nutritional-list">
+                            <li class="list-pair">
+                                <p>Energy</p>
+                                <p>2194kJ</p>
+                            </li>
+                            <li class="list-pair">
+                                <p>Protein</p>
+                                <p>4.3g</p>
+                            </li>
+                            <li class="list-pair">
+                                <p>Carbohydrate</p>
+                                <p>160g</p>
+                            </li>
+                            <li class="list-pair">
+                                <p>Fat</p>
+                                <p>28g</p>
+                            </li>
+                            <li class="list-pair">
+                                <p>Fibre</p>
+                                <p>6.2g</p>
+                            </li>
+                            <li class="list-pair">
+                                <p>Sugars</p>
+                                <p>58g</p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="cadbury-footer">
+        <div class="video-breaker">
+            <video id="background-video-breaker" autoplay loop muted>
+                <source src="./Video/Purple_wave_Desktop_SectionBreaker_1440x600_v3_03.mp4" type="video/mp4">
+            </video>
+            <div class="footer-container">
+                <form action="#" method="post" class="cadbury-footer-form">
+                    <h3>Get in Touch with us</h3>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
